@@ -55,10 +55,14 @@ nav ul li a:focus, nav ul li a:hover, nav ul li a:active {
   color: #fff;
 }
 nav ul {
-  margin: 0;
-  padding: 0;
+  margin: .5em;
+  padding: .5em 1em;
   list-style-type: none;
-  display: flex;
+  display: block;
+  border: 1px solid;
+  border-radius: .5em;
+  
+
 }
 nav ul li {
    font-size: .8em;
